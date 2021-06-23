@@ -45,17 +45,6 @@ Vue.use(pluginObj)
 // // 导入语言包
 // import 'dayjs/locale/zh-cn'
 
-// // 调用 dayjs 的 api
-// console.log('---------------使用 dayjs----------------')
-// // 扩展插件
-// dayjs.extend(relativeTime)
-// // 使用语言包
-// dayjs.locale('zh-cn')
-// // 使用转相对时间的方法
-// var time = dayjs().from(dayjs('2020-08-28T14:39:46'))
-// console.log(time)
-// console.log('---------------使用 dayjs----------------')
-
 Vue.config.productionTip = false
 Vue.use(Vant)
 
